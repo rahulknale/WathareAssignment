@@ -1,0 +1,42 @@
+.button-container {
+  position: absolute;
+  top: 20px; /* Adjust top position as needed */
+  right: 20px; /* Adjust right position as needed */
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px; /* Adjust margin between buttons as needed */
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #2d3034; /* Blue color */
+  color: rgb(248, 242, 242);
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #234161; /* Darker blue color on hover */
+}
+.timeline {
+  display: flex;
+  flex-direction: row;
+}
+
+.timeline-item {
+  width: 0.265px; /* Width of the vertical line */
+  height: 40px; /* Height of the vertical line */
+  margin-top: 20px; /* Spacing between lines */
+}
+
+.yellow {
+  background-color: yellow; /* Color for machine_status 1 */
+}
+
+.green {
+  background-color: green; /* Color for machine_status 0 */
+}
